@@ -1,0 +1,103 @@
+
+
+h1{
+  font-family: Georgia;
+  font-style: oblique;
+  font-size: 70px;
+text-align: center;
+color: rgb(237, 255, 135);
+font-weight: 600;
+line-height: 1;
+}
+p{
+text-align: center;
+font-size: 20px;
+}
+
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(206, 177, 123);
+margin: 0;
+padding: 20px;
+font-weight: 600;
+}
+
+form {
+background-color:  rgb(235, 188, 235);
+padding: 20px;
+border: 1px solid rgb(223, 181, 212);
+border-radius: 25px;
+width: 300px;
+margin: 0 auto;
+
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+width: 100%;
+margin: 10px;
+border: 2px solid rgb(49, 8, 124);
+box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+}
+
+input[type="submit"]{
+background-color: rgb(53, 13, 128);
+color: whitesmoke;
+padding: 10px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+width: 100%;
+}
+
+input[type="submit"]:hover{
+background-color: dimgray;
+}
+
+input[type="reset"]{
+  background-color: rgb(78, 27, 172);
+  color: whitesmoke;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  }
+
+  input[type="reset"]:hover{
+  background-color: dimgray;
+  }
+
+/* input[type=reset], input[type=submit]{
+  display: flex;
+  flex-direction: column;
+} */
+
+
+fieldset{
+  color: rgb(86, 112, 86);
+border-color: rgb(221, 61, 194);
+}
+
+
+
+h2{
+text-align: center;
+color: brown;
+}
+form label{
+  display: block;
+  margin-bottom: 5px;
+
+  color: rgb(62, 26, 223);
+}
+
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+font-size: 20px;
+}
